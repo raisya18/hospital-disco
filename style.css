@@ -1,0 +1,82 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container utama untuk membatasi lebar */
+h2, h3 {
+    color: #007bff; /* Warna biru untuk judul */
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Styling untuk form dan input */
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    max-width: 500px;
+}
+
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Penting agar padding tidak menambah lebar */
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Warna hijau untuk submit */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Styling untuk pesan */
+p {
+    margin: 10px 0;
+}
+
+/* Styling untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Warna untuk status */
+.status-pending { color: orange; font-weight: bold; }
+.status-confirmed { color: green; font-weight: bold; }
+.status-done { color: #555; font-weight: bold; }
